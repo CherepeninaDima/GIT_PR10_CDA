@@ -10,4 +10,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build and run
-        run: dotnet run --project maletin/GIT_PR10_CHEREPENIN_DIMA_ANDREEVICH.csproj
+        run: dotnet run --project eskere/GIT_PR10_CHEREPENIN_DIMA_ANDREEVICH.csproj
