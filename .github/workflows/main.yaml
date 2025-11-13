@@ -1,7 +1,7 @@
 name: MyAction
 on: 
   push:
-      branches: master
+      branches: main
 jobs:
   MyBuild:
     runs-on: windows-latest
@@ -10,4 +10,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build and run
-        run: dotnet run --project maletin/maletin.csproj
+        run: dotnet run --project maletin/GIT_PR10_CHEREPENIN_DIMA_ANDREEVICH.csproj
